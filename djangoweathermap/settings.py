@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!8*7&$rh&&ic5%$d%am*^b8zpr4hoel$5en-6#6of%4-5zkj6@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangoweathermap.herokuapp.com', 'http://127.0.0.1:8000/']
+ALLOWED_HOSTS = ['djangoweathermap.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'weather',
 ]
 
 MIDDLEWARE = [
